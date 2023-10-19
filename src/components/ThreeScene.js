@@ -16,8 +16,8 @@ const ThreeScene = () => {
       <ambientLight intensity={0.5} />
       <pointLight position={[10, 10, 10]} />
       <Model />
-      <OrbitControls />
-      {/* <PointerLockControls /> */}
+      {/* <OrbitControls /> */}
+      <PointerLockControls />
       <Stats />
     </Canvas>
   );
